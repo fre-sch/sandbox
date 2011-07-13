@@ -1,0 +1,28 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Reflex_Html_Class	Class.php	15;"	c
+__toString	Class.php	34;"	f
+export	Class.php	22;"	f
+getConstructor	Class.php	83;"	f
+getDocComment	Class.php	76;"	f
+getExtension	Class.php	159;"	f
+getInterfaces	Class.php	132;"	f
+getMethod	Class.php	91;"	f
+getMethods	Class.php	101;"	f
+getParentClass	Class.php	141;"	f
+getProperties	Class.php	122;"	f
+getProperty	Class.php	112;"	f
+getStaticProperties	Class.php	147;"	f
+name	Class.php	130;"	i
+renderClassName	Class.php	171;"	f
+renderConstants	Class.php	208;"	f
+renderExtension	Class.php	177;"	f
+renderInterfaces	Class.php	239;"	f
+renderInternal	Class.php	186;"	f
+renderParents	Class.php	192;"	f
+renderStaticProperties	Class.php	225;"	f
+toHtml	Class.php	165;"	f

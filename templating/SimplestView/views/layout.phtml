@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <title><?php echo View::escape( $title ) ?></title>
+    <!--  link rel="stylesheet" type="text/css" href="style.css"/ -->
+  </head>
+  <body>
+    <div id="root">
+      <div id="head">
+        <div class="wrap">
+          <h1 class="title"><?php echo View::escape( $title ) ?>
+<?php if ( isset( $subtitle ) ): ?>
+            <span class="subtitle"><?php echo View::escape( $subtitle ) ?></span>
+<?php endif ?>
+          </h1>
+        </div><!-- #wrap -->
+      </div><!-- #head -->
+      <div id="nav-primary" class="float-wrap">
+    	  <ul class="inline-list">
+    		  <li><a href="#">Start</a></li>
+    		  <li><a href="#">News</a></li>
+    		  <li><a href="#">Guestbook</a></li>
+    		  <li><a href="#">Party-Gallery</a></li>
+    		  <li><a href="#">Flyer-Gallery</a></li>
+    	  </ul>
+      </div><!-- #nav-primary -->
+      <div style="clear: both;">
+      	<div id="nav-secondary">
+      		<ul>
+      			<li><a href="#">Neue Einträge</a></li>
+      			<li><a href="#">Inaktive Einträge</a></li>
+      			<li><a href="#">Gelöschte Einträge</a></li>
+      			<li><a href="#">Alle Einträge</a></li>
+      		</ul>
+      	</div><!-- #nav-secondary -->
+      	<div id="content">
+<?php echo View::render( $content ) ?>
+      	</div><!-- #content -->
+      </div>
+    </div><!-- div#root -->
+  	<div id="foot">
+  		<p>div#foot</p>
+  	</div><!-- div#foot -->
+  </body>
+</html>

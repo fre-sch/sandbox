@@ -1,0 +1,33 @@
+<div class="table-wrap">
+	<table border="0" cellspacing="0" cellpadding="0">
+
+<?php if ( $columns && count( $columns ): ?>
+		<colgroup>
+<?php foreach ( $columns as $col ): ?>
+			<col <?php h_attrs( $col ) ?>/>
+<?php endfor ?>
+		</colgroup>
+<?php endif ?>
+
+<?php if ( $headers && count( $headers ) ): ?>
+		<thead>
+			<tr>
+<?php foreach ( $headers as $header ): ?>
+				<th></th>
+<?php endforeach ?>
+			</tr>
+		</thead>
+<?php endif ?>
+
+<?php if ( $rows && count( $rows ) ): ?>
+		<tbody>
+<?php foreach ( $rows as $row ): ?>
+<?php endforeach ?>
+		</tbody>
+<?php endif ?>
+
+	</table>
+<?php else: ?>
+	<p>No rows</p>
+<?php endif ?>
+</div>

@@ -1,0 +1,6 @@
+<div class="guestbook-entry">
+  <h3><?php echo View::escape( $title ) ?></h3>
+  <?php echo View::render( $user ) ?>
+  <p><?php echo View::escape( $message ) ?></p>
+  <p><?php echo View::date( $date ) ?></p>
+</div>
